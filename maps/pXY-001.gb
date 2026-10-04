@@ -1,0 +1,39 @@
+LOCUS       pXY-001                  295 bp    DNA     circular SYN 04-OCT-2026
+DEFINITION  Synthetic demo map for testing the plasmid viewer (backbone omitted).
+ACCESSION   pXY-001
+VERSION     pXY-001
+KEYWORDS    .
+SOURCE      synthetic DNA construct
+  ORGANISM  synthetic DNA construct
+            other sequences; artificial sequences.
+FEATURES             Location/Qualifiers
+     source          1..295
+                     /organism="synthetic DNA construct"
+                     /mol_type="other DNA"
+     primer_bind     1..17
+                     /label="M13 fwd (-20)"
+     misc_feature    18..23
+                     /label="EcoRI"
+     promoter        30..103
+                     /label="lac promoter/operator region"
+     primer_bind     complement(92..103)
+                     /label="M13 rev site (partial)"
+     misc_feature    104..109
+                     /label="BamHI"
+     RBS             111..116
+                     /label="RBS"
+     CDS             122..241
+                     /label="EGFP (N-terminal fragment)"
+                     /codon_start=1
+                     /translation="MVSKGEELFTGVVPILVELDGDVNGHKFSVSGEGEGDAT"
+     misc_feature    242..247
+                     /label="HindIII"
+     terminator      248..295
+                     /label="T7 terminator"
+ORIGIN
+        1 gtaaaacgac ggccagtgaa ttcgagctct ttacacttta tgcttccggc tcgtatgttg
+       61 tgtggaattg tgagcggata acaatttcac acaggaaaca gctggatcca aggaggtaaa
+      121 catggtgagc aagggcgagg agctgttcac cggggtggtg cccatcctgg tcgagctgga
+      181 cggcgacgta aacggccaca agttcagcgt gtccggcgag ggcgagggcg atgccaccta
+      241 aaagcttcta gcataacccc ttggggcctc taaacgggtc ttgaggggtt ttttg
+//
