@@ -1,1 +1,11 @@
-Strain number
+Strain_ID,Name,Species,Parent_Strain,Genotype,Plasmid_IDs,Resistance,Created_By,Date,Freezer,Box_Position,Source,Notes
+SXY-001,DH5α,Escherichia coli,,fhuA2 Δ(argF-lacZ)U169 phoA glnV44 Φ80Δ(lacZ)M15 gyrA96 recA1 relA1 endA1 thi-1 hsdR17,,None,J. Smith,2026-01-12,F2,B1-A1,NEB,Cloning host
+SXY-002,BL21(DE3),Escherichia coli,,F– ompT gal dcm lon hsdSB(rB– mB–) λ(DE3),,None,J. Smith,2026-01-12,F2,B1-A2,NEB,Protein expression host
+SXY-003,MG1655,Escherichia coli,,F– λ– ilvG– rfb-50 rph-1,,None,A. Lee,2026-01-20,F2,B1-A3,CGSC,Wild-type K-12 reference strain
+SXY-004,DH5α pXY-001,Escherichia coli,SXY-001,Same as parent,pXY-001,Amp,J. Smith,2026-02-03,F2,B2-A1,In-house transformation,GFP reporter construct; sequence verified
+SXY-005,BL21 pXY-004,Escherichia coli,SXY-002,Same as parent,pXY-004,Kan,A. Lee,2026-02-10,F2,B2-A2,In-house transformation,His-tagged protein expression; induce with 0.5 mM IPTG
+SXY-006,MG1655 dual,Escherichia coli,SXY-003,Same as parent,"pXY-001,pXY-014","Amp, Cm",A. Lee,2026-03-02,F2,B2-A3,In-house transformation,"Co-transformed; needs both antibiotics, grow at 30 °C"
+SXY-007,BY4741,Saccharomyces cerevisiae,,MATa his3Δ1 leu2Δ0 met15Δ0 ura3Δ0,,None,M. Chen,2026-03-15,F1,B1-C1,https://example.com/replace-with-source-link,Yeast background strain
+SXY-008,BY4741 pXY-009,Saccharomyces cerevisiae,SXY-007,Same as parent,pXY-009,None (URA selection),M. Chen,2026-04-01,F1,B1-C2,In-house transformation,Select on SC-Ura plates
+SXY-009,B. subtilis 168,Bacillus subtilis,,trpC2,,None,M. Chen,2026-04-18,F1,B1-D1,BGSC,Tryptophan auxotroph
+SXY-010,168 pXY-020,Bacillus subtilis,SXY-009,Same as parent,pXY-020,Spec,J. Smith,2026-05-06,F1,B1-D2,In-house transformation,Integration at amyE locus; verify by starch plate assay
